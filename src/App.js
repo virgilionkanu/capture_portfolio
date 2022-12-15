@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 
 import ContactUs from './pages/ContactUs';
 import OurWork from './pages/OurWork';
+import MovieDetail from './pages/MovieDetail';
 
 //Router
 import { Routes, Route } from 'react-router-dom';
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<AboutUs />} />
         <Route path="about-us" element={<AboutUs />} />
         <Route path="our-work" element={<OurWork />} />
+        <Route path="our-work/:id" element={<MovieDetail />} />
         <Route path="contact-us" element={<ContactUs />} />
       </Routes>
     </div>
