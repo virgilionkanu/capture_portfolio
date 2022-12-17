@@ -25,7 +25,6 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<AboutUs />} />
-          <Route path="about-us" element={<AboutUs />} />
           <Route path="our-work" element={<OurWork />} />
           <Route path="our-work/:id" element={<MovieDetail />} />
           <Route path="contact-us" element={<ContactUs />} />
